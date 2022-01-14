@@ -1,0 +1,135 @@
+@media all and (max-width: 973px) {
+  .Main {
+    flex-direction: column;
+  }
+  .Main_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 0;
+  }
+  .Main_right {
+    margin-left: auto;
+    margin-right: auto;
+    width: 364px;
+  }
+  .add_to_cart {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .main_right_box1 {
+    width: 351px;
+    height: 168px;
+  }
+  .main_right_box2 {
+    width: 351px;
+    height: 114px;
+    margin-top: 19px;
+  }
+  .add_to_cart {
+    width: 351px;
+    height: 55px;
+  }
+}
+@media all and (max-width: 426px) {
+  .main_right_head > h1 {
+    font-size: 20px;
+    text-align: start;
+  }
+  .main_right_head > p {
+    font-size: 10px;
+  }
+  .main_right_price > h1 {
+    font-size: 22px;
+  }
+  .main_right_price > img {
+    width: 68px;
+  }
+
+  .Main_left_img_all {
+    width: 242px;
+    height: 351px;
+  }
+  .Main_left_img_vector {
+    width: 2px;
+    height: 479px;
+    left: -23%;
+    top: 3%;
+  }
+  .Main_left_img_1 {
+    top: -34%;
+    left: 74%;
+  }
+  .Main_left_img_2 {
+    bottom: -43.7%;
+    left: 12%;
+    width: 87px;
+  }
+  .Main_left_img_3 {
+    position: relative;
+    left: -87.2%;
+    bottom: -31.2%;
+  }
+  .main_right_box1 {
+    width: 271px;
+    height: 134px;
+  }
+  .main_right_box1_tag {
+    width: 95px;
+    height: 18px;
+    margin-top: 10px;
+  }
+  .main_right_box1 > h1 {
+    font-size: 16px;
+  }
+  .main_right_box1_row1 > p {
+    font-size: 14px;
+  }
+  .main_right_box1_row1 > h3 {
+    font-size: 17px;
+  }
+  .main_right_box1_row2 > p {
+    font-size: 14px;
+  }
+  .main_right_box1_row2 > h4 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .main_right_box2 > h1 {
+    font-size: 16px;
+  }
+  .main_right_box2_row1 > p {
+    font-size: 14px;
+  }
+  .main_right_box2_row2 > p {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .main_right_box2_row1 > h2 {
+    font-size: 19px;
+  }
+  .main_right_box2_row2 > img {
+    width: 40px;
+  }
+  .main_right_box2 {
+    width: 271px;
+    height: 104px;
+    margin-top: 15px;
+  }
+  .main_right_box1_row2 > img {
+    width: 38px;
+    height: 16px;
+  }
+  .add_to_cart {
+    width: 271px;
+  }
+  .add_to_cart > button {
+    font-size: 13px;
+  }
+  .Main_right {
+    width: 262px;
+  }
+}
