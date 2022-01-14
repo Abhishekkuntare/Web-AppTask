@@ -12,6 +12,10 @@ import number from "../../images/₹1299.png";
 import number1 from "../../images/₹795.png";
 import number2 from "../../images/₹999.png";
 import Cart from "../../images/Cart.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+// ..
+AOS.init();
 
 const Main = () => {
   return (
@@ -20,7 +24,11 @@ const Main = () => {
         {/* Main Left */}
         <div className="Main_left">
           {/* left all */}
-          <div className="Main_left_img_all">
+          <div
+            className="Main_left_img_all"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <img className="Main_left_img_vector" src={Vector} alt="Vector" />
             <img className="Main_left_img_1" src={bottle1} alt="bottle1" />
             <div className="main_div"></div>
